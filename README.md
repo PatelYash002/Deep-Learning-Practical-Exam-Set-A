@@ -2,9 +2,7 @@
 
 A hands-on deep learning practical covering **Artificial Neural Networks (ANN), OpenCV image preprocessing, Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and Transformer-based sentiment analysis**. The work is organized in one Jupyter notebook, with saved model files and output figures included.
 
-> 📌 **Notebook:** [`notebooks/set-A.ipynb`](notebooks/set-A.ipynb)  
-> 📦 **Dependencies:** [`requirements.txt`](requirements.txt)
-
+> 📌 **Notebook:** [`notebooks/set-A.ipynb`](notebooks/set-A.ipynb)   📦 **Dependencies:** [`requirements.txt`](requirements.txt)  🎥 **Video:** [`Explanation Video`](https://drive.google.com/drive/folders/10eQdN-SBNq0FziDCQhC7d7krA_1F8MDi?usp=sharing)
 ---
 
 ## 📚 Practical Tasks
@@ -105,15 +103,15 @@ The figures below are included from the provided practical outputs. They illustr
 
 **Training vs. validation accuracy**
 
-![ANN training and validation accuracy](outputs/ann_training_validation_accuracy.png)
+![ANN training and validation accuracy](ANN_train_val_acc.png)
 
 **Training vs. validation loss**
 
-![ANN training and validation loss](outputs/ann_training_validation_loss.png)
+![ANN training and validation loss](ANN_train_val_loss.png)
 
 **Confusion matrix**
 
-![ANN confusion matrix](outputs/ann_confusion_matrix.png)
+![ANN confusion matrix](ANN_confusion_matrix.png)
 
 **Observation:** The accuracy curves rise and then level off near the end of training. The training loss continues to decrease while validation loss decreases more gradually, leaving a modest generalization gap. Use the notebook's test-set metrics and confusion matrix for the final evaluation.
 
@@ -121,15 +119,15 @@ The figures below are included from the provided practical outputs. They illustr
 
 **Original images**
 
-![Original images](outputs/opencv_original_images.png)
+![Original images](openCV_images.png)
 
 **Preprocessing pipeline**
 
-![OpenCV preprocessing pipeline](outputs/opencv_preprocessing_pipeline.png)
+![OpenCV preprocessing pipeline](opencv_image_grid.png)
 
 **5 × 5 processing grid**
 
-![OpenCV 5x5 processing grid](outputs/opencv_5x5_processing_grid.png)
+![OpenCV 5x5 processing grid](opencv_5x5_grid.png)
 
 **Pipeline:** Original image → resize to 128 × 128 → grayscale → Canny edges → largest contour highlighted.
 
@@ -137,19 +135,19 @@ The figures below are included from the provided practical outputs. They illustr
 
 **Sample CIFAR-10 images**
 
-![CIFAR-10 sample images](outputs/cnn_cifar10_sample_images.png)
+![CIFAR-10 sample images](cnn_images.png)
 
 **Training vs. validation accuracy**
 
-![CNN training and validation accuracy](outputs/cnn_training_validation_accuracy.png)
+![CNN training and validation accuracy](cnn_train_val_acc.png)
 
 **Training vs. validation loss**
 
-![CNN training and validation loss](outputs/cnn_training_validation_loss.png)
+![CNN training and validation loss](cnn_train_val_loss.png)
 
 **Prediction examples**
 
-![CNN prediction examples](outputs/cnn_prediction_examples.png)
+![CNN prediction examples](cnn_training.png)
 
 **Observation:** Training accuracy improves substantially, while validation accuracy levels off earlier. The increasing gap and rising validation loss in later epochs suggest possible overfitting; consider data augmentation, dropout, regularization, or early stopping.
 
@@ -157,15 +155,15 @@ The figures below are included from the provided practical outputs. They illustr
 
 **Monthly airline passenger time series**
 
-![Airline passenger time series](outputs/airline_passenger_timeseries.png)
+![Airline passenger time series](airlines.png)
 
 **Actual vs. predicted passengers**
 
-![RNN actual versus predicted](outputs/rnn_actual_vs_predicted.png)
+![RNN actual versus predicted](rnn_predictions.png)
 
 **Training loss**
 
-![RNN training loss](outputs/rnn_training_loss.png)
+![RNN training loss](rnn_trainloss.png)
 
 **Observation:** The series has an overall upward trend and recurring seasonal peaks. Predictions broadly follow the pattern, but some peaks are underestimated. A time-based train/test split is important for forecasting evaluation.
 
@@ -173,7 +171,7 @@ The figures below are included from the provided practical outputs. They illustr
 
 **Sentiment confidence scores**
 
-![Transformer sentiment confidence](outputs/transformer_sentiment_confidence.png)
+![Transformer sentiment confidence](transformer_sentiment.png)
 
 Green and red bars indicate the sentiment categories as represented by the original plot. Review the notebook's label mapping and model output before interpreting any individual prediction. The chart displays confidence scores, not an overall accuracy metric.
 
@@ -228,7 +226,7 @@ The model files are provided for reuse. Loading them may require compatible Tens
 
 ## 👤 Author
 
-**Deep Learning Practical — Set A**
+**Yash Patel**
 
 ---
 
