@@ -2,7 +2,7 @@
 
 A hands-on deep learning practical covering **Artificial Neural Networks (ANN), OpenCV image preprocessing, Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and Transformer-based sentiment analysis**. The work is organized in one Jupyter notebook, with saved model files and output figures included.
 
-> 📌 **Notebook:** [`set-A.ipynb`](set-A.ipynb)   📦 **Dependencies:** [`requirements.txt`](requirements.txt)  🎥 **Video:** [`Explanation Video`](https://drive.google.com/drive/folders/10eQdN-SBNq0FziDCQhC7d7krA_1F8MDi?usp=sharing)
+> 📌 **Notebook:** [`set-A.ipynb`](set-A.ipynb)   📦 **Dependencies:** [`requirements.txt`](requirements.txt)  🎥 **Video:** [`Explanation Video`](https://drive.google.com/file/d/1SkLCSM2MEP_dBNphsmkksUpVSK-r2E1k/view?usp=sharing)
 ---
 
 ## 📚 Practical Tasks
