@@ -103,15 +103,15 @@ The figures below are included from the provided practical outputs. They illustr
 
 **Training vs. validation accuracy**
 
-![ANN training and validation accuracy](ANN_train_val_acc.png)
+![ANN training and validation accuracy](outputs/ANN_train_val_acc.png)
 
 **Training vs. validation loss**
 
-![ANN training and validation loss](ANN_train_val_loss.png)
+![ANN training and validation loss](outputs/ANN_train_val_loss.png)
 
 **Confusion matrix**
 
-![ANN confusion matrix](ANN_confusion_matrix.png)
+![ANN confusion matrix](outputs/ANN_confusion_matrix.png)
 
 **Observation:** The accuracy curves rise and then level off near the end of training. The training loss continues to decrease while validation loss decreases more gradually, leaving a modest generalization gap. Use the notebook's test-set metrics and confusion matrix for the final evaluation.
 
@@ -119,15 +119,15 @@ The figures below are included from the provided practical outputs. They illustr
 
 **Original images**
 
-![Original images](openCV_images.png)
+![Original images](outputs/openCV_images.png)
 
 **Preprocessing pipeline**
 
-![OpenCV preprocessing pipeline](opencv_image_grid.png)
+![OpenCV preprocessing pipeline](outputs/opencv_image_grid.png)
 
 **5 × 5 processing grid**
 
-![OpenCV 5x5 processing grid](opencv_5x5_grid.png)
+![OpenCV 5x5 processing grid](outputs/opencv_5x5_grid.png)
 
 **Pipeline:** Original image → resize to 128 × 128 → grayscale → Canny edges → largest contour highlighted.
 
@@ -135,19 +135,19 @@ The figures below are included from the provided practical outputs. They illustr
 
 **Sample CIFAR-10 images**
 
-![CIFAR-10 sample images](cnn_images.png)
+![CIFAR-10 sample images](outputs/cnn_images.png)
 
 **Training vs. validation accuracy**
 
-![CNN training and validation accuracy](cnn_train_val_acc.png)
+![CNN training and validation accuracy](outputs/cnn_train_val_acc.png)
 
 **Training vs. validation loss**
 
-![CNN training and validation loss](cnn_train_val_loss.png)
+![CNN training and validation loss](outputs/cnn_train_val_loss.png)
 
 **Prediction examples**
 
-![CNN prediction examples](cnn_training.png)
+![CNN prediction examples](outputs/cnn_training.png)
 
 **Observation:** Training accuracy improves substantially, while validation accuracy levels off earlier. The increasing gap and rising validation loss in later epochs suggest possible overfitting; consider data augmentation, dropout, regularization, or early stopping.
 
@@ -155,15 +155,15 @@ The figures below are included from the provided practical outputs. They illustr
 
 **Monthly airline passenger time series**
 
-![Airline passenger time series](airlines.png)
+![Airline passenger time series](outputs/airlines.png)
 
 **Actual vs. predicted passengers**
 
-![RNN actual versus predicted](rnn_predictions.png)
+![RNN actual versus predicted](outputs/rnn_predictions.png)
 
 **Training loss**
 
-![RNN training loss](rnn_trainloss.png)
+![RNN training loss](outputs/rnn_trainloss.png)
 
 **Observation:** The series has an overall upward trend and recurring seasonal peaks. Predictions broadly follow the pattern, but some peaks are underestimated. A time-based train/test split is important for forecasting evaluation.
 
@@ -171,7 +171,7 @@ The figures below are included from the provided practical outputs. They illustr
 
 **Sentiment confidence scores**
 
-![Transformer sentiment confidence](transformer_sentiment.png)
+![Transformer sentiment confidence](outputs/transformer_sentiment.png)
 
 Green and red bars indicate the sentiment categories as represented by the original plot. Review the notebook's label mapping and model output before interpreting any individual prediction. The chart displays confidence scores, not an overall accuracy metric.
 
